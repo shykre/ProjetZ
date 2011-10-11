@@ -2,7 +2,7 @@
 
 /*
  *---------------------------------------------------------------
- * APPLICATION ENVIRONMENT - REPO TEST
+ * APPLICATION ENVIRONMENT - GITHUB
  *---------------------------------------------------------------
  *
  * You can load different configurations depending on your
