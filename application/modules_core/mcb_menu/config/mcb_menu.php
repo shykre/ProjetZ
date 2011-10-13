@@ -115,32 +115,10 @@ $config = array(
                     'title' =>  'add_supplier',
                     'href'  =>  'suppliers/form'
                                     )
+                                    
             )
         ),
-        
-        'reports'   =>  array(
-            'title'         =>  'reports',
-            'submenu'       =>  array(
-                'client_list'   =>  array(
-                    'title' =>  'client_list',
-                    'href'  =>  'reports/client_list'
-                ),
-                'client_statement'  =>  array(
-                    'title' =>  'client_statement',
-                    'href'  =>  'reports/client_statement'
-                ),
-                'inventory_history' =>  array(
-                    'title' =>  'inventory_history',
-                    'href'  =>  'reports/inventory_history'
-                ),
-                'inventory_sales'   =>  array(
-                    'title' =>  'inventory_sales',
-                    'href'  =>  'reports/inventory_sales'
-                )
-            )
-        ),
-        
-                'bills'  =>  array(
+          'bills'  =>  array(
             'title'     =>  'bills',
             'href'      =>  'bills/index',
             'submenu'   =>  array(
@@ -155,6 +133,7 @@ $config = array(
                                 'bill_search'    =>  array(
                     'title' =>  'bill_search',
                     'href'  =>  'bill_search'
+                )
                 ),
                 'quotes'  =>  array(
                     'title'     =>  'quotes',
@@ -197,7 +176,33 @@ $config = array(
                             'global_admin'  =>  TRUE
                         )
                     )
+                )
                 ),
+        
+        
+        'reports'   =>  array(
+            'title'         =>  'reports',
+            'submenu'       =>  array(
+                'client_list'   =>  array(
+                    'title' =>  'client_list',
+                    'href'  =>  'reports/client_list'
+                ),
+                'client_statement'  =>  array(
+                    'title' =>  'client_statement',
+                    'href'  =>  'reports/client_statement'
+                ),
+                'inventory_history' =>  array(
+                    'title' =>  'inventory_history',
+                    'href'  =>  'reports/inventory_history'
+                ),
+                'inventory_sales'   =>  array(
+                    'title' =>  'inventory_sales',
+                    'href'  =>  'reports/inventory_sales'
+                )
+            )
+        ),
+        
+              
         'system'    =>  array(
             'title'         =>  'system',
             'href'          =>  'settings',
