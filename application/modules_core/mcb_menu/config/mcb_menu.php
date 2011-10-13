@@ -103,6 +103,18 @@ $config = array(
                 )
             )
         ),
+        'suppliers'   =>  array(
+            'title'     =>  'suppliers',
+            'href'      =>  'suppliers/index',
+            'submenu'   =>  array(
+                'suppliers'  =>  array(
+                    'title' =>  'view_suppliers',
+                    'href'  =>  'suppliers/index'
+                ),
+                'suppliers/form'   =>  array(
+                    'title' =>  'add_supplier',
+                    'href'  =>  'suppliers/form'
+        
         'reports'   =>  array(
             'title'         =>  'reports',
             'submenu'       =>  array(
@@ -124,6 +136,65 @@ $config = array(
                 )
             )
         ),
+        
+                'bills'  =>  array(
+            'title'     =>  'bills',
+            'href'      =>  'bills/index',
+            'submenu'   =>  array(
+                'bills/create'   =>  array(
+                    'title' =>  'create_bill',
+                    'href'  =>  'bills/create'
+                ),
+                                'bills/index'    =>  array(
+                    'title' =>  'view_bills',
+                    'href'  =>  'bills/index'
+                ),
+                                'bill_search'    =>  array(
+                    'title' =>  'bill_search',
+                    'href'  =>  'bill_search'
+                ),
+                'quotes'  =>  array(
+                    'title'     =>  'quotes',
+                    'href'      =>  'bills/index/is_quote/1',
+                    'submenu'   =>  array(
+                        'bills/index/is_quote/1' =>  array(
+                            'title' =>  'view_quotes',
+                            'href'  =>  'bills/index/is_quote/1'
+                        ),
+                        'bills/create/quote'    =>  array(
+                            'title' =>  'create_quote',
+                            'href'  =>  'bills/create/quote'
+                        ),
+                        'bills/index/is_quote/1' =>  array(
+                            'title' =>  'view_quotes',
+                            'href'  =>  'bills/index/is_quote/1'
+                        )
+                    )
+                ),
+                'payments'  =>  array(
+                    'title'     =>  'payments',
+                    'href'      =>  'payments/index',
+                    'submenu'   =>  array(
+                        'payments/index'    =>  array(
+                            'title' =>  'view_payments',
+                            'href'  =>  'payments/index'
+                        ),
+                        'payments/form' =>  array(
+                            'title' =>  'enter_payment',
+                            'href'  =>  'payments/form'
+                        ),
+                        'payments/payment_methods'  =>  array(
+                            'title'         =>  'payment_methods',
+                            'href'          =>  'payments/payment_methods',
+                            'global_admin'  =>  TRUE
+                        ),
+                        'templates/index/type/payment_receipts' =>  array(
+                            'title'         =>  'receipt_templates',
+                            'href'          =>  'templates/index/type/payment_receipts',
+                            'global_admin'  =>  TRUE
+                        )
+                    )
+                ),
         'system'    =>  array(
             'title'         =>  'system',
             'href'          =>  'settings',

@@ -5,14 +5,20 @@ $lang['active_client'] = 'Active Client';
 $lang['add'] = 'Add';
 $lang['add_client'] = 'Add Client';
 $lang['add_contact'] = 'Add Contact';
+$lang['add_supplier'] = 'Add Client';
 $lang['add_invoice_group'] = 'Add Invoice Group';
 $lang['add_invoice_item'] = 'Add Invoice Item';
 $lang['add_invoice_payment'] = 'Add Invoice Payment';
 $lang['add_invoice_status'] = 'Add Invoice Status';
+$lang['add_bill_group'] = 'Add Bill Group';
+$lang['add_bill_item'] = 'Add Bill Item';
+$lang['add_bill_payment'] = 'Add Bill Payment';
+$lang['add_bill_status'] = 'Add Bill Status';
 $lang['add_payment_method'] = 'Add Payment Method';
 $lang['add_tax_rate'] = 'Add Tax Rate';
 $lang['adjust_invoice_id'] = 'Adjust Invoice ID';
 $lang['all_clients'] = 'All Clients';
+$lang['all_suppliers'] = 'All Suppliers';
 $lang['amount'] = 'Amount';
 $lang['amount_cannot_exceed_invoice_balance'] = 'The Payment Amount cannot exceed the Invoice Balance.';
 $lang['amount_operator'] = 'Amount Operator';
@@ -42,6 +48,13 @@ $lang['client_delete_warning'] = 'Deleting this client record will also delete a
 $lang['client_form'] = 'Client Form';
 $lang['client_name'] = 'Client Name';
 $lang['clients'] = 'Clients';
+$lang['client_summary_report'] = 'Client Summary Report';
+$lang['Supplier'] = 'Supplier';
+$lang['supplier_delete_warning'] = 'Deleting this supplier record will also delete all associated invoices and payments. Are you sure you want to delete this supplier and all associated records?';
+$lang['supplier_form'] = 'Supplier Form';
+$lang['supplier_name'] = 'Supplier Name';
+$lang['suppliers'] = 'Suppliers';
+$lang['supplier_summary_report'] = 'Supplier Summary Report';
 $lang['close'] = 'Close';
 $lang['closed'] = 'Closed';
 $lang['company_name'] = 'Company Name';
@@ -53,6 +66,8 @@ $lang['cost'] = 'Cost';
 $lang['country'] = 'Country';
 $lang['create_invoice'] = 'Create Invoice';
 $lang['create_invoice_status'] = 'Create Invoice Status';
+$lang['create_bill'] = 'Create Bill';
+$lang['create_bill_status'] = 'Create Bill Status';
 $lang['create_user_account'] = 'Create User Account';
 $lang['created_by'] = 'Created By';
 $lang['created_invoice'] = 'Created Invoice';
@@ -93,6 +108,13 @@ $lang['default_invoice_template'] = 'Default Invoice Template';
 $lang['default_open_invoice_status'] = 'Default Open Invoice Status';
 $lang['default_quote_template'] = 'Default Quote Template';
 $lang['default_receipt_template'] = 'Default Receipt Template';
+
+$lang['default_closed_bill_status'] = 'Default Closed Bill Status';
+$lang['default_bill_template'] = 'Default Bill Template';
+$lang['default_open_bill_status'] = 'Default Bill Invoice Status';
+$lang['default_quote_template'] = 'Default Quote Template';
+$lang['default_payment_template'] = 'Default Payment Template';
+
 $lang['delete'] = 'Delete';
 $lang['delete_invoice_logo'] = 'Delete Invoice Logo';
 $lang['delete_quote'] = 'Delete Quote';
@@ -120,6 +142,11 @@ $lang['generate_invoice'] = 'Generate Invoice';
 $lang['generate_report'] = 'Generate Report';
 $lang['generated_invoice_html'] = 'Generated HTML Invoice';
 $lang['generated_invoice_pdf'] = 'Generated PDF Invoice';
+
+$lang['generate_bill'] = 'Generate Bill';
+$lang['generated_bill_html'] = 'Generated HTML Bill';
+$lang['generated_bill_pdf'] = 'Generated PDF Bill';
+
 $lang['global_administrator'] = 'Global Administrator';
 $lang['grand_total'] = 'Grand Total';
 $lang['group_left_pad'] = 'Left Pad';
@@ -129,8 +156,14 @@ $lang['html'] = 'HTML';
 $lang['i_agree'] = 'I Agree';
 $lang['id'] = 'ID';
 $lang['include_logo_on_invoice'] = 'Include Logo on Invoice';
+
+$lang['include_logo_on_bill'] = 'Include Logo on Bill';
+
 $lang['include_quotes'] = 'Include Quotes';
 $lang['include_tax_id_invoice'] = 'Include Tax ID on Invoice';
+
+$lang['include_tax_id_bill'] = 'Include Tax ID on Bill';
+
 $lang['install'] = 'Install';
 $lang['install_admin_account_problem'] = 'There was a problem creating the admin account. Installation will now exit.';
 $lang['install_admin_account_success'] = 'The admin account has successfully been created.';
@@ -169,6 +202,36 @@ $lang['invoice_template_form'] = 'Invoice Template Form';
 $lang['invoice_templates'] = 'Invoice Templates';
 $lang['invoices'] = 'Invoices';
 $lang['invoices_due_after'] = 'Invoices Due After (Days)';
+
+$lang['bill'] = 'Bill';
+$lang['bill_balance'] = 'Bill Balance';
+$lang['bill_date'] = 'Bill Date';
+$lang['bill_group'] = 'Bill Group';
+$lang['bill_group_form'] = 'Bill Group Form';
+$lang['bill_groups'] = 'Bill Groups';
+$lang['bill_history'] = 'Bill History';
+$lang['bill_item_form'] = 'Bill Item Form';
+$lang['bill_items'] = 'Bill Items';
+$lang['bill_logo'] = 'Bill Logo';
+$lang['bill_number'] = 'Bill #';
+$lang['bill_options_saved'] = 'The bill options have been saved.';
+$lang['bill_payments'] = 'Bill Payments';
+$lang['bill_search'] = 'Bill Search';
+$lang['bill_settings'] = 'Bill Settings';
+$lang['bill_status'] = 'Bill Status';
+$lang['bill_status_form'] = 'Bill Status Form';
+$lang['bill_status_type'] = 'Status Type';
+$lang['bill_statuses'] = 'Bill Statuses';
+$lang['bill_summary_report'] = 'Bill Summary Report';
+$lang['bill_summary_report_options'] = 'Bill Summary Report Options';
+$lang['bill_summary_report_results'] = 'Bill Summary Report Results';
+$lang['bill_tax'] = 'Bill Tax';
+$lang['bill_template'] = 'Bill Template';
+$lang['bill_template_form'] = 'Bill Template Form';
+$lang['bill_templates'] = 'Bill Templates';
+$lang['bills'] = 'Bills';
+$lang['bills_due_after'] = 'Bills Due After (Days)';
+
 $lang['item'] = 'Item';
 $lang['item_date'] = 'Item Date';
 $lang['item_description'] = 'Item Description';
@@ -177,6 +240,10 @@ $lang['item_subtotal'] = 'Item Subtotal';
 $lang['item_tax'] = 'Item Tax';
 $lang['invoice_tax_option_1'] = 'Apply before item tax';
 $lang['invoice_tax_option_2'] = 'Apply after item tax';
+
+$lang['bill_tax_option_1'] = 'Apply before item tax';
+$lang['bill_tax_option_2'] = 'Apply after item tax';
+
 $lang['items'] = 'Items';
 $lang['language'] = 'Language';
 $lang['last_name'] = 'Last Name';
@@ -189,6 +256,9 @@ $lang['modules'] = 'Modules';
 $lang['myclientbase'] = 'MyClientBase';
 $lang['name'] = 'Name';
 $lang['new_client'] = 'New Client';
+
+$lang['new_supplier'] = 'New Supplier';
+
 $lang['new_password'] = 'New Password';
 $lang['new_password_verify'] = 'New Password (Verify)';
 $lang['next'] = 'Next';
@@ -201,6 +271,9 @@ $lang['notes'] = 'Notes';
 $lang['of'] = 'of';
 $lang['open'] = 'Open';
 $lang['open_invoices'] = 'Open Invoices';
+
+$lang['open_bills'] = 'Open Bills';
+
 $lang['optimize_database'] = 'Optimize Database';
 $lang['output_type'] = 'Output Type';
 $lang['overdue_invoices'] = 'Overdue Invoices';
@@ -239,12 +312,19 @@ $lang['recalculate_invoices'] = 'Recalculate Invoices';
 $lang['receipt_number'] = 'Receipt #';
 $lang['receipt_templates'] = 'Receipt Templates';
 $lang['recently_closed_invoices'] = 'Recently Closed Invoices';
+
+$lang['recently_closed_bills'] = 'Recently Closed Bills';
+
 $lang['record_does_not_exist'] = 'Record Does Not Exist';
 $lang['save_item'] = 'Save Item';
 $lang['save_options'] = 'Save Options';
 $lang['save_settings'] = 'Save Settings';
 $lang['saved_invoice'] = 'Saved Invoice';
 $lang['saved_invoice_options'] = 'Saved Invoice Options';
+
+$lang['saved_bill'] = 'Saved Bill';
+$lang['saved_bill_options'] = 'Saved Bill Options';
+
 $lang['search'] = 'Search';
 $lang['security'] = 'Security';
 $lang['select_file'] = 'Select File';
@@ -327,6 +407,14 @@ $lang['view_invoice_items'] = 'View Invoice Items';
 $lang['view_invoice_statuses'] = 'View Invoice Statuses';
 $lang['view_invoice_templates'] = 'View Invoice Templates';
 $lang['view_invoices'] = 'View Invoices';
+
+$lang['view_suppliers'] = 'View Suppliers';
+$lang['view_bill_groups'] = 'View Bill Groups';
+$lang['view_bill_items'] = 'View Bill Items';
+$lang['view_bill_statuses'] = 'View Bill Statuses';
+$lang['view_bill_templates'] = 'View Bill Templates';
+$lang['view_bills'] = 'View Bills';
+
 $lang['view_payments'] = 'View Payments';
 $lang['view_quotes'] = 'View Quotes';
 $lang['view_tax_rates'] = 'View Tax Rates';
@@ -368,6 +456,8 @@ $lang['receipt_as_body'] = 'Receipt as Body';
 /** Changed: $lang['default_tax_rate'] = "Default Tax Rate"; */
 $lang['default_invoice_tax_rate'] = 'Default Invoice Tax Rate';
 
+$lang['default_bill_tax_rate'] = 'Default Bill Tax Rate';
+
 /** Changed: $lang['pdf_plugin'] = "PDF Plugin"; */
 $lang['pdf_helper'] = 'PDF Helper';
 
@@ -385,6 +475,9 @@ $lang['password_recovery_email_2'] = 'Click here to log in';
 $lang['recover_email'] = 'Check your email address for further instructions.';
 $lang['recover_text'] = 'Enter your username below to reset your password. An email will be sent to the email address associated with your user account.';
 $lang['select_invoices'] = 'Select Invoices';
+
+$lang['select_bills'] = 'Select Bills';
+
 $lang['trouble_logging_in'] = 'Trouble Logging In?';
 $lang['unassigned'] = 'Unassigned';
 $lang['username_or_pw_incorrect'] = 'Either your username or password is incorrect.';
@@ -405,6 +498,10 @@ $lang['adjust_stock'] = 'Adjust Stock';
 $lang['choose_inventory'] = 'Choose an inventory item or enter the item below';
 $lang['client_list'] = 'Client List';
 $lang['client_statement'] = 'Client Statement';
+
+$lang['supplier_list'] = 'Supplier List';
+$lang['supplier_statement'] = 'Supplier Statement';
+
 $lang['include_closed_invoices'] = 'Include Closed Invoices';
 $lang['inventory'] = 'Inventory';
 $lang['inventory_history'] = 'Inventory History';
@@ -452,6 +549,9 @@ $lang['total_paid_widget_cutoff_date'] = 'Total Paid Widget Cutoff Date';
 
 /* NEW FOR 0.9.5 */
 $lang['apply_invoice_tax'] = 'Apply Invoice Tax';
+
+$lang['apply_bill_tax'] = 'Apply Bill Tax';
+
 $lang['email_footer'] = 'Email Footer';
 $lang['footer'] = 'Footer';
 $lang['inventory_type_in_use'] = 'The Inventory Type specified is already in use.';
