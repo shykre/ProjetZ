@@ -114,6 +114,9 @@ $config = array(
                 'suppliers/form'   =>  array(
                     'title' =>  'add_supplier',
                     'href'  =>  'suppliers/form'
+                                    )
+            )
+        ),
         
         'reports'   =>  array(
             'title'         =>  'reports',
