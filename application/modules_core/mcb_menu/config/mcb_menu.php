@@ -24,6 +24,18 @@ $config = array(
             'title'     =>  'invoices',
             'href'      =>  'invoices/index',
             'submenu'   =>  array(
+                'invoices/create'   =>  array(
+                    'title' =>  'create_invoice',
+                    'href'  =>  'invoices/create'
+                ),
+                                'invoices/index'    =>  array(
+                    'title' =>  'view_invoices',
+                    'href'  =>  'invoices/index'
+                ),
+                                'invoice_search'    =>  array(
+                    'title' =>  'invoice_search',
+                    'href'  =>  'invoice_search'
+                ),
                 'quotes'  =>  array(
                     'title'     =>  'quotes',
                     'href'      =>  'invoices/index/is_quote/1',
@@ -66,19 +78,10 @@ $config = array(
                         )
                     )
                 ),
-                'invoices/index'    =>  array(
-                    'title' =>  'view_invoices',
-                    'href'  =>  'invoices/index'
-                ),
-                'invoices/create'   =>  array(
-                    'title' =>  'create_invoice',
-                    'href'  =>  'invoices/create'
-                ),
 
-                'invoice_search'    =>  array(
-                    'title' =>  'invoice_search',
-                    'href'  =>  'invoice_search'
-                ),
+                
+
+
                 'templates/index/type/invoices' =>  array(
                     'title'         =>  'invoice_templates',
                     'href'          =>  'templates/index/type/invoices',
